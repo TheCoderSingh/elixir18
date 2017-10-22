@@ -11,7 +11,8 @@ body {
 	/*background-color: #222;*/
 	/*background-color: #111;*/
 	background: url('wood.png');
-	background-size: cover;
+	background-size: contain;
+	/*background-size: cover;*/
 }
 
 .cont {
@@ -231,4 +232,34 @@ iframe {
 	z-index: -1;
 	top: 0;
 	left: 0;
+}
+
+.dark, .light {
+	font-size: 36px;
+	font-family: 'Architects Daughter';
+	display: flex;
+	align-items: center;
+}
+
+.dark p, .light p {
+	margin: 0 auto;
+}
+
+.dark {
+	background-color: #196070;
+	height: 100%;
+	color: #e6ffe0;
+}
+
+.light {
+	background-color: #e6ffe0;
+	height: 100%;
+	color: #196070;
+}
+
+.sponsmsg {
+	text-align: center;
+	font-size: 4em;
+	color: #FFF;
+	margin-top: 100px;
 }
