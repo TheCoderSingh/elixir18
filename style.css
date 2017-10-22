@@ -8,8 +8,10 @@
 }
 
 body {
-	background-color: #222;
-	/*background-color: #235789;*/
+	/*background-color: #222;*/
+	/*background-color: #111;*/
+	background: url('wood.png');
+	background-size: cover;
 }
 
 .cont {
